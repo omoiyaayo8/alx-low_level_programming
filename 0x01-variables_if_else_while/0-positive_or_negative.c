@@ -12,16 +12,12 @@ int main(void)
 	printf("Enter a number:\n ");
 	scanf("%d" , &n);
 	if ( n > 0)
-	{
 		printf( "%dis positive",n);
-	} else if (n ==0 ) 
-	{
+	else if (n ==0 ) 
 		printf("%dis Zero",n);
-	}
-	else
-       	{
+	else if (n < 0 )
 		printf("%dis negative",n);
-	}
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
