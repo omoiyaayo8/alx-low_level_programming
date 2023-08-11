@@ -5,27 +5,27 @@
 
 /* betty style doc for function main goes there */
 /**
+ * main - Entry point
  *
- *main - Entry point
+ * Description:"0-positive_or_negative"
  *
- *Description:"A program that print whether number is +ve or -ve or 0
+ * Return: Always 0 (Success)
  *
- *Return: Always 0 (Success)
- *
- * */
+ */
+
 int main(void)
 {
 	int n;
 	/* Collect integer number from Keyboard and display it */
 
 	printf("Enter a number:\n ");
-	scanf("%d", &n);
+	scanf("%1f", &n);
 	if (n > 0)
 		printf("%d is positive", n);
-	else if (n == 0) 
-		printf("%d is Zero",n);
-	else if (n < 0)
-		printf("%d is negative", n);
+	else if (n < 0) 
+		printf("%d is Negative", n);
+	else if (n == 0)
+		printf("%d is Zero", n);
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
