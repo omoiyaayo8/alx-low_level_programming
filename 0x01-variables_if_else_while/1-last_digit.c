@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point
+ * Main - Printing of text according to number of modules
  *
- * Description: '1-last_digit'
+ * Description: 'last_digit'
  *
  * Return: Always (Success)
  */
