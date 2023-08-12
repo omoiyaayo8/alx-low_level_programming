@@ -5,6 +5,8 @@
 /**
  * Main - Printing of text according to number of modules
  *
+ * Decription: 'The last digit'
+ *
  * Return: Always (Success)
  */
 
