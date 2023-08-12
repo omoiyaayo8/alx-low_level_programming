@@ -20,9 +20,8 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	/* Collect integer number from Keyboard and display it */
-       	/*printf("Enter a number: \n");*/
-       	scanf("%d", &n);
+	scanf("%d", &n);
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
