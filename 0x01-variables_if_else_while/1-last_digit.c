@@ -1,14 +1,18 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 
 /**
- * Main - print the last digit of the number stored in the variable
+ * Main - Entry point
  *
- * Description: "1-last_digit.c"
+ * Description:"1-last_digit.c"
  *
  * Return: Always (Success)
  */
+
 int main(void)
 {
 	int n, lastd;
@@ -27,7 +31,7 @@ int main(void)
 	}
 	else if (lastd < 6 && lastd != 0)
 	{
-		printf("Last digit of %d  is %d and is less than 6 and not 0", n, lastd);
+		printf("Last digit of %d is %d and is less than 6 and not 0", n, lastd);
 	}
 
 	return (0);
