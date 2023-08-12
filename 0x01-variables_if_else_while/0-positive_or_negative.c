@@ -1,6 +1,7 @@
 #include <stdlib.h>
-#include<stdio.h>
 #include <time.h>
+#include <stdio.h>
+
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -20,7 +21,7 @@ int main(void)
 	/* your code goes there */
 	/* Collect integer number from Keyboard and display it */
 
-        printf("Enter a number: ");
+        printf("Enter a number: \n");
         scanf("%d", &n);
         srand(time(0));
 	if (n > 0)
