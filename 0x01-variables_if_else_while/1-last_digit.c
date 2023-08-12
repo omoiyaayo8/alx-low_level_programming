@@ -1,14 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 
 /**
  * Main - Entry point
  *
- * Description:"1-last_digit"
+ * Description: '1-last_digit'
  *
  * Return: Always (Success)
  */
