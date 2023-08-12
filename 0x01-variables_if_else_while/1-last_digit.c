@@ -3,15 +3,13 @@
 #include <stdio.h>
 
 /**
- * Main - Printing of text according to number of modules
- *
- * Decription: 'The last digit'
+ * main - Prints if number is positive, zero or negative
  *
  * Return: Always (Success)
  */
-
 int main(void)
 {
+
 	int n, lastd;
 
 	srand(time(0));
