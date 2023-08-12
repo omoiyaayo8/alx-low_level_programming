@@ -5,8 +5,6 @@
 /**
  * Main - Printing of text according to number of modules
  *
- * Description: 'last_digit'
- *
  * Return: Always (Success)
  */
 
