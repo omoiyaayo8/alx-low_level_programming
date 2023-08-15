@@ -17,6 +17,7 @@ int main(void)
         {
                 putchar(i);
 		/* There should be increment statement here */
+		/* to stop the infinte loop */
         }
 
         printf("Infinite loop avoided! \\o/\n");
