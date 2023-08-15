@@ -9,6 +9,7 @@ int main(void)
 {
         int i;
 
+	/* Negative or positive section*/
         i = 98;
         positive_or_negative(i);
 
