@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - Print sign for Nth 
+ * print_sign - Print sign of a number
  * @c: Number to be checked
  *Return: 1 for +ve, -1 for -ve or 0 for Zero
  */
