@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h> 
+#include <stdio.h>
 /**
  *print_to_98 - The natural number from n to 98
  *@n: The starting point of number
@@ -25,7 +25,7 @@ void print_to_98(int n)
 			}
 		}
 	}
-		else 
+		else
 		{
 			for (; n >= 98; n--)
 			{
@@ -35,11 +35,11 @@ void print_to_98(int n)
 					printf("\n");
 					break;
 				}
-				else 
+				else
 				{
 					printf("%d, ", n);
 				}
 			}
-		}	
+		}
 }
 
