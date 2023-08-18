@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * prints_most_number - print from 0 to 9 exclude 2and 4
- *
+ *prints_most_number - print from 0 to 9 exclude 2 and 4.
+ *@n: number to e printed
  * Return:void
  */
 
@@ -20,4 +20,3 @@ void print_most_numbers(void)
 	}
 	_putchar(10);
 }
-				
