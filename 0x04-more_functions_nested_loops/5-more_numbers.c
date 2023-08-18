@@ -1,14 +1,13 @@
 #include "main.h"
-
 /**
- * more_numbers - print 10x number from 0 to 14.
+ *more_numbers - print 10x number from 0 to 14.
  *
- * Return: Void
+ *Return: Void
  */
-
 void more_numbers(void)
 {
-	int i, j;
+	int i;
+	int j;
 
 	for(i = 1; i <= 10; i++)
 	{
