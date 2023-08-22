@@ -1,6 +1,7 @@
-include "main.h"
+#include "main.h"
+
 /**
-*swap_int - swap two number of int dtype
+*swap_int - swap two number
 *@a: first integer
 *@b: second integer
 *Return: nothing
