@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *more_numbers - print 10x number from 0 to 14.
+ *more_numbers - print number to 14.
  *
- *Return: Void
+ *Return: return nothing
  */
 void more_numbers(void)
 {
